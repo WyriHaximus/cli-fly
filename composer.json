@@ -1,11 +1,11 @@
 {
-    "name": "wyrihaximus/sli-fly",
-    "description": "Flysystem Service Provider for Silex",
+    "name": "wyrihaximus/cli-fly",
+    "description": "Flysystem Service Provider for Cilex",
     "license": "MIT",
     "keywords": [
         "flysystem",
         "filesystem",
-        "silex",
+        "cilex",
         "service-provider"
     ],
     "authors": [
@@ -16,12 +16,13 @@
         }
     ],
     "require": {
-        "league/flysystem": "^1.0",
-        "silex/silex": "~1.2"
+        "php": ">=5.4",
+        "wyrihaximus/pimple-flysystem-service": "dev-master",
+        "cilex/cilex": "~1.0"
     },
     "autoload": {
         "psr-4": {
-            "WyriHaximus\\SliFly\\": "src/"
+            "WyriHaximus\\CliFly\\": "src/"
         }
     },
     "require-dev": {
