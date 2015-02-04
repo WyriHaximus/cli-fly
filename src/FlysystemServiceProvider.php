@@ -4,9 +4,12 @@ namespace WyriHaximus\CliFly;
 
 use Cilex\Application;
 use Cilex\ServiceProviderInterface;
+use WyriHaximus\Pimple\FlysystemServiceProviderTrait;
 
 class FlysystemServiceProvider implements ServiceProviderInterface
 {
+    use FlysystemServiceProviderTrait;
+
     /**
      * Register this service provider with the Application.
      *
