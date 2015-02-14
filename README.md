@@ -1,14 +1,14 @@
 SliFly
 ======
 
-[Flysystem](http://flysystem.thephpleague.com/) service provider for [Silex](http://silex.sensiolabs.org/).
+[Flysystem](http://flysystem.thephpleague.com/) service provider for [Cilex](https://github.com/Cilex/Cilex).
 
 ## Installation ##
 
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `~`.
 
 ```
-composer require wyrihaximus/sli-fly 
+composer require wyrihaximus/cli-fly 
 ```
 
 ## Usage ##
@@ -16,7 +16,7 @@ composer require wyrihaximus/sli-fly
 Adapters have to be setup as an associative array where the key defines the alias to be used later in the application. The value array contains two indexes. One `adapter` holding the fully namespaced adapter class name, and `args` for all the arguments pass into adapter. 
 
 ```php
-$app->register(new WyriHaximus\SliFly\FlysystemServiceProvider(), [
+$app->register(new WyriHaximus\CliFly\FlysystemServiceProvider(), [
     'flysystem.filesystems' => [
         'local__DIR__' => [
             'adapter' => 'League\Flysystem\Adapter\Local',
@@ -36,7 +36,7 @@ var_export($app['flysystems']['local__DIR__']->listContents());
 
 ## License ##
 
-Copyright 2014 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
+Copyright 2015 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
