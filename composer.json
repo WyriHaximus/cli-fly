@@ -25,6 +25,11 @@
             "WyriHaximus\\CliFly\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "WyriHaximus\\CliFly\\Tests\\": "tests/"
+        }
+    },
     "require-dev": {
         "vectorface/dunit": "~2.0",
         "squizlabs/php_codesniffer": "~1.0",
