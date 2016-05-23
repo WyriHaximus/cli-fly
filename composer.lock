@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9bf8d75ebc3eeaf056a2209c1bc8345",
+    "hash": "9727587eb16c2fb4941c1da0c1a7b000",
+    "content-hash": "6ebf323e7a4580ded8660d36aa86f387",
     "packages": [
         {
             "name": "cilex/cilex",
@@ -256,12 +257,12 @@
             "version": "v2.7.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Console.git",
+                "url": "https://github.com/symfony/console.git",
                 "reference": "8cf484449130cabfd98dcb4694ca9945802a21ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/8cf484449130cabfd98dcb4694ca9945802a21ed",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8cf484449130cabfd98dcb4694ca9945802a21ed",
                 "reference": "8cf484449130cabfd98dcb4694ca9945802a21ed",
                 "shasum": ""
             },
@@ -408,21 +409,21 @@
         },
         {
             "name": "wyrihaximus/pimple-flysystem-service",
-            "version": "1.0.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/pimple-flysystem-service.git",
-                "reference": "336873488ee79be2e001d2b7a62dbc9bf16f3a82"
+                "reference": "9856316e09079fbc95c0428e714ba88bea6ae9cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/pimple-flysystem-service/zipball/336873488ee79be2e001d2b7a62dbc9bf16f3a82",
-                "reference": "336873488ee79be2e001d2b7a62dbc9bf16f3a82",
+                "url": "https://api.github.com/repos/WyriHaximus/pimple-flysystem-service/zipball/9856316e09079fbc95c0428e714ba88bea6ae9cb",
+                "reference": "9856316e09079fbc95c0428e714ba88bea6ae9cb",
                 "shasum": ""
             },
             "require": {
                 "league/flysystem": "^1.0",
-                "php": ">=5.4",
+                "php": "^5.4||^7.0",
                 "pimple/pimple": "^1.0"
             },
             "require-dev": {
@@ -455,7 +456,7 @@
                 "pimple",
                 "service"
             ],
-            "time": "2015-07-17 19:39:22"
+            "time": "2016-05-23 20:12:56"
         }
     ],
     "packages-dev": [
