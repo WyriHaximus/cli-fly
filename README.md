@@ -1,4 +1,4 @@
-SliFly
+CliFly
 ======
 
 [Flysystem](http://flysystem.thephpleague.com/) service provider for [Cilex](https://github.com/Cilex/Cilex).
